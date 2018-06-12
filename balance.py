@@ -45,6 +45,7 @@ positions = q.accounts_positions(account)
 trades = {position.symbol:target_units[position.symbol] - position.openQuantity for position in positions}
 
 # print results
+print()
 if all([t == 0 for t in trades.values()]):
     print('Congrats, you are already perfectly balanced!')
 else:
