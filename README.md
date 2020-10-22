@@ -11,7 +11,7 @@ No part of this project should be taken as investment advice. This is for educat
 Clone the repo:
 
 ```bash
-git clone https://bitbucket.org/brendanwood/qrobo.git
+git clone https://github.com/passiv/qrobo.git
 ```
 
 Install the dependencies into a Python virtualenv:
